@@ -4,3 +4,7 @@ body{
 h1{
     color: rgb(174, 0, 0)
 }
+.navbar{
+    background-color: lightblue;
+    text-align: center;
+}
