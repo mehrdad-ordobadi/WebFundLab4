@@ -13,6 +13,11 @@ header ul{
     justify-content: center;   
 }
 
+.bgone{
+    background-color: #A6CAD4;
+}
+
+
 /* .navbar{
     background-color: lightblue;
     text-align: center;
