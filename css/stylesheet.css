@@ -3,7 +3,7 @@ body{
     background-color: #EDDDD0  
     
 }
-h1{
+.headfoot{
     display: flex;
     justify-content: center;
     color: #334259;
@@ -23,7 +23,7 @@ li{
 section{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr 2fr 1fr;
 }
 main h2{
     grid-column: 1;
@@ -35,13 +35,19 @@ h2+p{
 }
 img{
     grid-column: 2;
-    grid-row: 1/4;
+    grid-row: 2/4;
+
 }
 img+p{
     grid-column: 1;
     grid-row: 4;
 }
-
+footer{
+    padding: 5px;
+}
+h1{
+    padding-top: 5px;
+}
 
 /* .navbar{
     background-color: lightblue;
