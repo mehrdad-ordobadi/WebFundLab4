@@ -10,17 +10,19 @@ body{
 }
 header ul{
     display: flex;
-    justify-content: center;   
+    flex-direction: column;
+    align-items: center;
+     
 }
 
 .bgone{
     background-color: #A6CAD4;
 }
 li{
-    margin:20px;
+    margin:10px;
     list-style-type: none;
 }
-section{
+.sectiongrid{
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr 2fr 1fr;
@@ -49,8 +51,11 @@ h1{
     padding-top: 5px;
 }
 
-/* .navbar{
-    background-color: lightblue;
-    text-align: center;
-    list-style-position: inside;
+/* @media screen and (min-width:600px)  {
+    header ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+    }
 } */
+
