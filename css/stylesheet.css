@@ -50,6 +50,7 @@ footer{
 }
 h1{
     padding-top: 5px;
+    margin-bottom: 60px;
     font-size: 5vw;
 }
 .borderline{
@@ -60,6 +61,9 @@ section{
 }
 .fontmagnify{
     font-size: 1.5em;
+}
+section p{
+    margin: 50px 0;
 }
 /* @media screen and (min-width:600px)  {
     header ul{
