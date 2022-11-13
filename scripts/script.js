@@ -8,4 +8,13 @@ while(isNaN(Number(code)) || code.length !== 4){
     code = prompt("Please enter the course code number (4 digit code only:");
 }
 
-   
+for (let keys of Object.keys(courses)){
+    if (keys.includes(code)){
+        let msg = `Yes I am taking the course: ACIT ${code} – ${courses.key}`
+        console.log(msg)
+    }
+    else{
+       courses['ACIT '+code]=null
+       console.log(`Success! ACIT ${code} was added to courses`)
+    }
+}
