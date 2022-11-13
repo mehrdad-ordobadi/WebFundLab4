@@ -10,8 +10,8 @@ while(isNaN(Number(code)) || code.length !== 4){
 
 for (let keys of Object.keys(courses)){
     if (keys.includes(code)){
-        let msg = `Yes I am taking the course: ACIT ${code} – ${courses.key}`
-        console.log(msg)
+        console.log(`Yes I am taking the course: ACIT ${code} – ${courses.key}!`);
+        break
     }
     else{
        courses['ACIT '+code]=null
